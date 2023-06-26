@@ -13,7 +13,7 @@
    >
    >不加上好像也行 就是没办法获得自己写题的具体情况 可能运行时也会报错
 
-   ![session](resources\img\session.png)
+   ![session](resources//img//session.png)
 
 ```
 # 题目生成的markdown的命名格式 不用加上.md
@@ -35,29 +35,29 @@ request.graphql_url=https://leetcode.cn/graphql/
 
 2.运行`Main`分别为所有题目获取和单独一题获取
 
-![Main](resources\img\Main.png)
+![Main](resources//img//Main.png)
 
 ## 运行结果
 
 运行时结果
 
-![run1](resources\img\run1.png)
+![run1](resources//img//run1.png)
 
 文件生成
 
-![run1](resources\img\run2.png)
+![run1](resources//img//run2.png)
 
 xlsx生成
 
-![run3](resources\img\run3.png)
+![run3](resources//img//run3.png)
 
 markdown生成
 
-![run4](resources\img\run4.png)
+![run4](resources//img//run4.png)
 
 如果已经解答会填充最新的一条java语言的AC代码
 
-![run5](resources\img\run5.png)
+![run5](resources//img//run5.png)
 
 ## 函数介绍
 
