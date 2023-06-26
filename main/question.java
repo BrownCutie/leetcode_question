@@ -71,7 +71,7 @@ public class question {
         this.request = request;
     }
 
-    public boolean getData() throws IOException, JSONException, InterruptedException {
+    public boolean getData() throws IOException, JSONException {
 
         if (titleSlug == null || titleSlug.equals("")) {
             System.out.println("请配置题目");
@@ -110,7 +110,7 @@ public class question {
         if (difficulty.equals("Easy")) difficulty = "简单";
         else difficulty = difficulty.equals("Hard") ? "困难" : "中等";
         paid = data.getBoolean("isPaidOnly");
-        if (!data.has("questionFrontendId")) return;
+        if (!data.has("questionFrontendId")) return;//主要相似题目也会创建一个question对象 他没有太多信息
         // id
         id = data.getString("questionFrontendId");
         //内容
